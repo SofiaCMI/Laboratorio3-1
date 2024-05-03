@@ -9,48 +9,82 @@
     <form>
         <table border="0" width="100%"> <!-- 100% ocupa toda la pantalla -->
             <tr>
-                <th colspan="4" >Datos personales</th>
+                <th colspan="4" >Datos del colaborador</th>
             </tr>
             <tr>
                 <td width="20%"></td>
                 <td width="30%"> <label for="name"> Nombre y apellidos</label></td>
-                <td width="30%"> <input type="text" name="name" id="name"></td>
-                <td width="20%"></td>
-            </tr>
-
-            <tr>
-                <td width="20%"></td>
-                <td width="30%"> <label for="name"> Direccion</label></td>
-                <td width="30%"><input type="text" name="direccion" id="direccion"></td>
+                <td width="30%"> <input type="text" name="name" id="name" ></td>
                 <td width="20%"></td>
             </tr>
             <tr>
                 <td width="20%"></td>
-                <td width="30%"> <label for="Pais"> Pais</label></td>
-                <td width="30%"><input type="text" name="name" id="name"></td>
-                <td width="20%"></td>
-            </tr>
-            <tr>
-                <td width="20%"></td>
-                <td width="30%"> <label for="name"> Nombe y apellidos</label></td>
+                <td width="30%"> <label for="name"> Codigo CUP </label></td>
                 <td width="30%"><input type="text" name="name" id="name"></td>
                 <td width="20%"></td>
             </tr> 
             <tr>
                 <td width="20%"></td>
-                <td colspan="2">
+                <td width="30%"> <label for="empresa"> Empresa a la cual pertenece</label></td>
+                <td width="30%">
+                    <select name="empresa" id="empresa" name="empresa">
+                        <option value="Selecciona"> Selecciona</option>
+                        <option value="MPSP"> MANPOWER SERVICE PROFESIONAL</option>
+                        <option value="Manpower"> MANPOWER</option>
+                        
+                    </select>
+                </td>
+                <td width="20%"></td>
+            </tr>
+            <tr>
+                <td width="20%"></td>
+                <td width="30%"> <label for="Pais"> Pais</label></td>
+                <td width="30%">
+                    <select name="Pais" id="Pais" name="Pais">
+                        <option value="Selecciona"> Selecciona</option>
+                        <option value="Peru"> Peru</option>
+                        <option value="Ecuador"> Ecuador</option>
+                        <option value="Argentina"> Argentina</option>
+                        <option value="Brasil">Brasil</option>
+                        <option value="Bolivia"> Bolivia</option>
+                    </select>
+                </td>
+                <td width="20%"></td>
+            </tr>
+            <tr>
+                <td width="20%"></td>
+                <td width="30%"> <label for="sedes"> Sedes</label></td>
+                <td width="30%">
+                    <select name="sedes" id="sedes" name="sedes">
+                        <option value="Selecciona"> Selecciona</option>
+                        <option value="Lince"> Lince</option>
+                        <option value="Surco"> Surco</option>
+                        <option value="Los olivos"> Los Olivos</option>
+                        <option value="Pucusana">Pucusana</option>
+                    </select>
+                </td>
+                <td width="20%"></td>
+            </tr>
+            <tr>
+                <td width="20%"></td>
+                <td width="30%"><label for="name"> Sexo </label></td>
+                <td width="30%">
                     <input type="radio" id="Hombre" name="genero">
                     <label for="Hombre"> Hombre </label>
 
                     <input type="radio" id="Mujer" name="genero">
                     <label for="Mujer"> Mujer</label>
-
-                    <input type="radio" id="Otro" name="genero">
-                    <label for="Otro"> Otro </label>
-                
                 </td>
                 <td width="20%"></td>
-            </tr>                                  
+            </tr>       
+            <tr>
+                <td wicth="20%"></td>
+                <td width="30%"></td>
+                <td width="30%">
+                    <input type="submit" value="Ingresar">
+                </td>
+                <td wicth="20%"></td>
+            </tr>                           
         </table>
 
 
